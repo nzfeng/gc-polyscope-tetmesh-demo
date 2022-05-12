@@ -4,6 +4,11 @@
 
 # Getting started
 
+Clone:
+```
+git clone --recursive https://github.com/nzfeng/gc-polyscope-tetmesh-demo
+```
+
 This demo takes the following as input:
 * a tetmesh file
 
