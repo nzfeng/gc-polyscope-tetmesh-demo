@@ -1,6 +1,6 @@
 # Contact patch transfer demo
 
-![teaser](images/teaser.png?raw=true)
+![teaser](data/teaser.png?raw=true)
 
 # Getting started
 
@@ -15,10 +15,15 @@ make -j8	# or however many cores you have
 bin/main <path_to_tetmesh>
 ```
 
-Some example data is in the `data/` directory. For example, to test out the hand mesh,
+Some example data is in the `data/` directory. For example, to test out the armadillo mesh (which has meshed the inside/outside of an armadillo), run
 
 ```
-bin/main ../data/hand.tet
+bin/main ../data/armadillo.mesh
 ```
+You can add slice planes, etc. by hitting the `Options` button in the Polyscope GUI.
 
-Also try out the `volumes_and_views` branches of Polyscope to get enhanced options for volume meshes. I believe Thomas Carey added smoother slice plane, isosurface visuals.
+# Notes
+
+This demo uses the `volumes_and_views2` branch of Polyscope. I believe Thomas Carey added smoother slice plane, isosurface visuals. 
+
+It seems like libigl only has support reading from .mesh and .msh files (the latter being output from TetGen.)
