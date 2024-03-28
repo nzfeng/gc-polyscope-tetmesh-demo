@@ -1,4 +1,4 @@
-# Manipulating tet meshes with geometry-central and Polyscope
+# Manipulating tet meshes with geometry-central (using libigl) and Polyscope
 
 ![teaser](data/teaser.png?raw=true)
 
