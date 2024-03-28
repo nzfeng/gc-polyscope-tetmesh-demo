@@ -1,4 +1,4 @@
-# Contact patch transfer demo
+# Manipulating tet meshes with geometry-central and Polyscope
 
 ![teaser](data/teaser.png?raw=true)
 
